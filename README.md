@@ -55,7 +55,8 @@ library to use_
 ### Radio on protoshield
 This is similar for both units so is a good place to start. get two radios and
 two shields, and solder them similar to the following pictures:
-![](../images/NPI00002a.png)
+
+![](images/NPI00002a.png)
 
 The radio hangs over the bottom of the shield to allow for better radio reception.
 
@@ -63,13 +64,13 @@ The radio hangs over the bottom of the shield to allow for better radio receptio
 Mount the shield on both of the UNOs and mount the LCD on one as the receiver.
 The transmitter has not been connected to any sensors yet but that is ok as we're
 just testing the radio link.
-![](../images/NPI00002b.png)
+![](images/NPI00002b.png)
 
 Download the sketches that go along with this project and upload onto each UNO.
 you should be able to check that the LCD screen initialises and displays something
 like the following
 
-![](../images/NPI00002c.png)
+![](images/NPI00002c.png)
 
 If the radios are both working correctly, you'll see a green 'R' flash in the top right corner of the display about every five seconds, and after a few minutes, numbers and graph lines will appear.
 If the radios are not working, check the wiring for both prototyping shields.
@@ -81,7 +82,7 @@ should be powered down so we can add the sensor modules. We've used two groups
 of red, brown and orange wires from the WC6028, and wired the reds to the +5V
 bus and the browns to the GND bus at the end of the Prototype Shield.
 
-![](../images/NPI00002d.png)
+![](images/NPI00002d.png)
 
 See how the pin ends are staggered to keep the cables flat. The orange for the Soil
 Sensor goes to A5, and the orange for the Temperature and Humidity Sensor goes
