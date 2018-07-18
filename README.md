@@ -41,8 +41,7 @@ _Receiver just uses the LCD shield and so no further connections required_
 
 ## Software Libraries
 _Currently we have libraries on our website that have been modified to work with
-our modules, if you experience issues, look on the product pages for an alternative
-library to use_
+our modules, if you experience issues, look on the product pages for an alternative library to use_
 
 |Library | Author
 | --- |--- |
